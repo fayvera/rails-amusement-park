@@ -22,7 +22,7 @@ RSpec.describe User, :type => :model do
       :height => 34,
       :admin => true
     )
-  }
+  } 
 
   let(:roller_coaster) {
     Attraction.create(
